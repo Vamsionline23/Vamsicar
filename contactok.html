@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Contactok </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap-grid.min.css" integrity="sha512-ZuRTqfQ3jNAKvJskDAU/hxbX1w25g41bANOVd1Co6GahIe2XjM6uVZ9dh0Nt3KFCOA061amfF2VeL60aJXdwwQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+        background-color:rgb(51, 51, 51);
+      }
+      .mail-seccess {
+        text-align: center;
+        background: rgb(51, 51, 51);
+      }
+      .mail-seccess .success-inner {
+        display: inline-block;
+      }
+      .mail-seccess .success-inner h1 {
+        font-size: 100px;
+        text-shadow: 3px 5px 2px #3333;
+        color: #006DFE;
+        font-weight: 700;
+      }
+      .mail-seccess .success-inner h1 span {
+        display: block;
+        font-size: 25px;
+        color: #333;
+        font-weight: 600;
+        text-shadow: none;
+        margin-top: 20px;
+      }
+      .mail-seccess .success-inner p {
+        padding: 20px 15px;
+      }
+      .mail-seccess .success-inner .btn{
+        color:#fff;
+      }
+    </style>
+  </head>
+  <body style="background-color:rgb(51, 51, 51);">
+    <div class="row navbar">
+      <div class="col-sm-2 it" style="background-color: rgb(36, 35, 35);">
+        <a href="index.html"><img src="images/7.png" height="50px;"></a>
+      </div>
+      <div class="col-sm-5" style="background-color: rgb(36, 35, 35);">
+        <p> </p>
+      </div>
+      <div class="col-sm-5 where">
+        <div class="input-group" >
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-primary" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 sticky-sidebar">
+        <div class="sidebar">
+          <a href="index.html" style="padding-bottom: 30px;"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="services.html" style="padding-bottom: 30px;"><i class="fa fa-fw fa-wrench"></i> Services</a>
+          <a href="clients.html" style="padding-bottom: 30px;"><i class="fa fa-fw fa-user"></i> Clients</a>
+          <a href="contact.html" style="padding-bottom: 30px;"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        </div>
+      </div>
+      <div class="write" style="color:grey; font-size: 25px; padding-top: 50px;">
+        <section class="mail-seccess section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3 col-12">
+                <!-- Error Inner -->
+                <div class="success-inner">
+                  <h1 style=" font-size: 120px;"><i class="fa fa-envelope"></i><span>Your Mail Sent Successfully!</span></h1>
+                  <p>Aenean eget sollicitudin lorem, et pretium felis. Nullam euismod diam libero, sed dapibus leo laoreet ut. Suspendisse potenti. Phasellus urna lacus</p>
+                  <a href="index.html" class="btn btn-primary btn-lg">Go Home</a>
+                </div>
+                <!--/ End Error Inner -->
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
